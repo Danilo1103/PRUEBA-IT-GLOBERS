@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./Styles/Cart.module.css"
+import style from "./Styles/Cart.less"
 import BolsaImg from "../../img/bolsa02.jpg"
 
 export default function Cart(){

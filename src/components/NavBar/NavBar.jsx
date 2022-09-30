@@ -1,6 +1,6 @@
 import React from "react";
 import logo from "../../img/logo.png"
-import styles from "./NavBar.module.css"
+import styles from "./NavBar.less"
 import { GiKnapsack } from "react-icons/gi"
 import { BsFillUmbrellaFill, BsFillBagFill } from "react-icons/bs"
 import { MdEventSeat } from "react-icons/md"

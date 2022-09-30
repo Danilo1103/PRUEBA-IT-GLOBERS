@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Footer.module.css"
+import styles from "./Footer.less"
 import {BsFacebook, BsTwitter, BsInstagram} from "react-icons/bs"
 import logo from "../../img/logoAzul.png"
 import garantia from "../../img/garantia.png"

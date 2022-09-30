@@ -5,7 +5,7 @@ import imgThree from "../../img/img3.jpg"
 import imgFour from "../../img/img4.jpg"
 import imgFive from "../../img/img5.jpg"
 import imgSix from "../../img/img6.jpg"
-import styles from "./Galeria.module.css"
+import styles from "./Galeria.less"
 
 export default function Galeria() {
     return (

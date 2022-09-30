@@ -1,6 +1,6 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
-import styles from "./Form.module.css"
+import styles from "./Form.less"
 import Swal from 'sweetalert2'
 import { useState } from 'react';
 import { VscArrowRight } from "react-icons/vsc"

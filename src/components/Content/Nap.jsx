@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./Styles/Nap.module.css"
+import style from "./Styles/Nap.less"
 import NapImg from "../../img/nap02.jpg"
 
 export default function Nap(){

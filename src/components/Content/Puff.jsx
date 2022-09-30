@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./Styles/Puff.module.css"
+import style from "./Styles/Puff.less"
 import PuffImg from "../../img/puff02.png"
 
 export default function Puff(){

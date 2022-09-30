@@ -1,5 +1,5 @@
 import React from "react";
-import style from "./Styles/Rain.module.css"
+import style from "./Styles/Rain.less"
 import RainImg from "../../img/umbrella02.jpg"
 
 export default function Rain(){
