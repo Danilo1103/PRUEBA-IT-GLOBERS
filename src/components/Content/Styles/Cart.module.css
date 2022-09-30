@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* background: url("../../img/img2.jpg");
+    background-size: cover; */
+    height: 100vh;
+}
+
+.left{
+    background: url("../../../img/bolsa.jpg") center;
+    background-size: cover;
+    display: flex;
+    place-items: center;
+    text-align: center;
+    justify-content: center; 
+}
+
+.right{
+    background-color: #fff;
+    display: flex;
+    place-items: center;
+    text-align: center;
+    justify-content: center; 
+}
+
+.right img{
+    width: 140px;
+}
+
+.right p{
+    width: 50%;
+}
+
+hr{
+    width: 20%;
+}

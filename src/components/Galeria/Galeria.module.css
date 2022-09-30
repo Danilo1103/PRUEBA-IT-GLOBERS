@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.text {
+    margin: 60px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text p{
+    font-weight: 200;
+    font-size: 14px;
+    margin: 4px;
+}
+
+.text h2{
+    font-size: 34px;
+}
+
+.imgs{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(190px, 3fr));
+    width: 50%;
+    margin: auto;
+    grid-gap: 1px;
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+.imgs img{
+    width: 100%;
+    vertical-align: top;
+    height: 150px;
+}

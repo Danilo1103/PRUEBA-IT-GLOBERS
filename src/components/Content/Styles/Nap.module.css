@@ -1,0 +1,36 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+}
+
+.left{
+    background: url("../../../img/nap.jpg") center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    place-items: center;
+    text-align: center;
+    justify-content: center; 
+}
+
+.right{
+    background-color: #fff;
+    display: flex;
+    place-items: center;
+    text-align: center;
+    justify-content: center; 
+}
+
+.right img{
+    width: 60px;
+}
+
+.right p{
+    width: 50%;
+}
+
+hr{
+    width: 20%;
+}
