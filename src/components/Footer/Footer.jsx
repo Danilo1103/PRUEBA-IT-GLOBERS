@@ -11,7 +11,7 @@ export default function Footer(){
                 <div className={styles.row}>
                 <div className={styles.footer_col}>
                         <ul>
-                            <li><img src={logo} alt="" /></li>
+                            <li><img src={logo} alt="Logo" /></li>
                         </ul>
                     </div>
                     <div className={styles.footer_col}>

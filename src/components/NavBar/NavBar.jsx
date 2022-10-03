@@ -5,7 +5,7 @@ import { GiKnapsack } from "react-icons/gi"
 import { BsFillUmbrellaFill, BsFillBagFill } from "react-icons/bs"
 import { MdEventSeat } from "react-icons/md"
 
-export default function NavBar() {
+export default function NavBar({linkss}) {
     return (
         <header className={styles.header}>
             <div className={styles.logo}>
@@ -13,7 +13,7 @@ export default function NavBar() {
             </div>
             <nav>
                 <ul className={styles.nav_links}>
-                    <li className={styles.separador}>
+                    <li className={styles.separador}>  
                         <a href="/">
                             <div>
                             <MdEventSeat/>
@@ -64,6 +64,5 @@ export default function NavBar() {
                 </ul>
             </nav>
         </header>
-        
     )
 }

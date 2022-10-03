@@ -1,8 +1,14 @@
 import React from "react";
 import style from "./Styles/Nap.less"
 import NapImg from "../../img/nap02.jpg"
+import { useEffect } from "react";
+import Aos from "aos"
+import "aos/dist/aos.css"
 
 export default function Nap(){
+    useEffect(() => {
+        Aos.init({ duration: 600 })
+    })
     return(
         <div className={style.container}>
             <div className={style.right}>
@@ -18,7 +24,7 @@ export default function Nap(){
                 </div>
                     <div className={style.flecha}></div>
             </div>   
-            <div className={style.left}>
+            <div className={style.left} data-aos="fade-up-right">
             </div>
         </div>
     )
