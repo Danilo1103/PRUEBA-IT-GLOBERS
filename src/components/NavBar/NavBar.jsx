@@ -14,7 +14,7 @@ export default function NavBar({linkss}) {
             <nav>
                 <ul className={styles.nav_links}>
                     <li className={styles.separador}>  
-                        <a href="/">
+                        <a href="#Puff">
                             <div>
                             <MdEventSeat/>
                             </div>
@@ -23,7 +23,7 @@ export default function NavBar({linkss}) {
                     </li>
                     <li className={styles.vertical_opciones}></li>
                     <li className={styles.separador}>
-                        <a href="/">
+                        <a href="#Rain">
                             <div>
                             <BsFillUmbrellaFill/>
                             </div>
@@ -32,7 +32,7 @@ export default function NavBar({linkss}) {
                     </li>
                     <li className={styles.vertical_opciones}></li>
                     <li className={styles.separador}>
-                        <a href="/">
+                        <a href="#Cart">
                             <div>
                             <BsFillBagFill/>
                             </div>
@@ -41,7 +41,7 @@ export default function NavBar({linkss}) {
                     </li>
                     <li className={styles.vertical_opciones}></li>
                     <li className={styles.separador}>
-                        <a href="/">
+                        <a href="#Nap">
                             <div>
                             <GiKnapsack/>
                             </div>
@@ -55,7 +55,7 @@ export default function NavBar({linkss}) {
                     <li><a href="/">Mi cuenta</a>
                     <ul className={styles.menu}>
                         <li><a href="https://www.linkedin.com/in/danilo-ib%C3%A1%C3%B1ez-519a4023a/" target="_blanck">LinkeDin</a></li>
-                        <li><a href="https://api.whatsapp.com/send?phone=573028442263" target="_blanck">Whatsapp</a></li>
+                        <li><a href="https://api.whatsapp.com/send?phone=573504299973" target="_blanck">Whatsapp</a></li>
                         <li><a href="https://www.instagram.com/daniloo0311/" target="_blanck">Instagram</a></li>
                     </ul>
                     </li>

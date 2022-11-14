@@ -12,7 +12,7 @@ export default function Puff(){
 
     return(
         <div>
-        <div className={style.container}>
+        <div className={style.container} id="Puff">
             <div className={style.right}>
                 <div>
                     <img src={PuffImg} alt="Puff" />

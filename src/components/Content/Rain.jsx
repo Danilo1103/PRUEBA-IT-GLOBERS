@@ -12,7 +12,7 @@ export default function Rain(){
 
     return(
         <div>
-        <div className={style.container}>
+        <div className={style.container} id="Rain">
             <div className={style.left} data-aos="fade-up-right">
                 <div>
                     <button>SHOP</button>

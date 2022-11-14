@@ -12,7 +12,7 @@ import img01 from "../../img/img1.jpg"
 import img02 from "../../img/image2.jpg"
 import img03 from "../../img/image3.jpg"
 
-function Home() {
+export default function Home() {
     return (
         <div>
             <div>
@@ -59,5 +59,3 @@ function Home() {
         </div>
     )
 }
-
-export default Home

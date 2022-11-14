@@ -11,7 +11,7 @@ export default function Cart(){
     })
     return(
         <div>
-        <div className={style.container}>
+        <div className={style.container} id="Cart">
             <div className={style.left} data-aos="fade-up-right">
             </div>
             <div className={style.right}>

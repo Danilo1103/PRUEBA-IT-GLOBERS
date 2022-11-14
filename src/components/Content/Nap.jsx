@@ -10,7 +10,7 @@ export default function Nap(){
         Aos.init({ duration: 600 })
     })
     return(
-        <div className={style.container}>
+        <div className={style.container} id="Nap">
             <div className={style.right}>
                 <div>
                     <img src={NapImg} alt="Nap" />
